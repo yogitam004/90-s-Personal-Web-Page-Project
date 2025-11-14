@@ -1,0 +1,27 @@
+body {
+    color: rgb(175, 59, 79);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url('pink repeating tile.avif');
+    cursor: url('cursor.png') 6 6, auto;
+}
+
+p,ul,ol,table:hover{ 
+    cursor: url('catcursor.png') 6 6, auto;
+}
+
+
+ul,ol{
+    padding-left: 400px;
+    text-align: left;
+    color: black;
+}
+
+table {
+    margin: 0 auto 1em auto;
+    text-align: center;
+    background-color: rgb(243, 159, 228);
+    color: white;
+    width: 60%;
+    box-shadow: -5px 5px 3px rgb(207, 35, 35);
+}
